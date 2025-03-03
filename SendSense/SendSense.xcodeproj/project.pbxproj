@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA824B912D6E59FE00997D48 /* ClimbingSession+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA824B8F2D6E59FE00997D48 /* ClimbingSession+CoreDataClass.swift */; };
+		FA824B922D6E59FE00997D48 /* ClimbingSession+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA824B902D6E59FE00997D48 /* ClimbingSession+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA824B702D6E564B00997D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA824B522D6E564900997D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA824B592D6E564900997D48;
+			remoteInfo = SendSense;
+		};
+		FA824B7A2D6E564C00997D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA824B522D6E564900997D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA824B592D6E564900997D48;
+			remoteInfo = SendSense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA824B5A2D6E564900997D48 /* SendSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA824B6F2D6E564B00997D48 /* SendSenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA824B792D6E564B00997D48 /* SendSenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendSenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA824B8F2D6E59FE00997D48 /* ClimbingSession+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClimbingSession+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FA824B902D6E59FE00997D48 /* ClimbingSession+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClimbingSession+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA824B5C2D6E564900997D48 /* SendSense */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SendSense;
+			sourceTree = "<group>";
+		};
+		FA824B722D6E564B00997D48 /* SendSenseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SendSenseTests;
+			sourceTree = "<group>";
+		};
+		FA824B7C2D6E564C00997D48 /* SendSenseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SendSenseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA824B572D6E564900997D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA824B6C2D6E564B00997D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA824B762D6E564B00997D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA824B512D6E564900997D48 = {
+			isa = PBXGroup;
+			children = (
+				FA824B8F2D6E59FE00997D48 /* ClimbingSession+CoreDataClass.swift */,
+				FA824B902D6E59FE00997D48 /* ClimbingSession+CoreDataProperties.swift */,
+				FA824B5C2D6E564900997D48 /* SendSense */,
+				FA824B722D6E564B00997D48 /* SendSenseTests */,
+				FA824B7C2D6E564C00997D48 /* SendSenseUITests */,
+				FA824B5B2D6E564900997D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA824B5B2D6E564900997D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA824B5A2D6E564900997D48 /* SendSense.app */,
+				FA824B6F2D6E564B00997D48 /* SendSenseTests.xctest */,
+				FA824B792D6E564B00997D48 /* SendSenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA824B592D6E564900997D48 /* SendSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA824B832D6E564C00997D48 /* Build configuration list for PBXNativeTarget "SendSense" */;
+			buildPhases = (
+				FA824B562D6E564900997D48 /* Sources */,
+				FA824B572D6E564900997D48 /* Frameworks */,
+				FA824B582D6E564900997D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA824B5C2D6E564900997D48 /* SendSense */,
+			);
+			name = SendSense;
+			packageProductDependencies = (
+			);
+			productName = SendSense;
+			productReference = FA824B5A2D6E564900997D48 /* SendSense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA824B6E2D6E564B00997D48 /* SendSenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA824B862D6E564C00997D48 /* Build configuration list for PBXNativeTarget "SendSenseTests" */;
+			buildPhases = (
+				FA824B6B2D6E564B00997D48 /* Sources */,
+				FA824B6C2D6E564B00997D48 /* Frameworks */,
+				FA824B6D2D6E564B00997D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA824B712D6E564B00997D48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA824B722D6E564B00997D48 /* SendSenseTests */,
+			);
+			name = SendSenseTests;
+			packageProductDependencies = (
+			);
+			productName = SendSenseTests;
+			productReference = FA824B6F2D6E564B00997D48 /* SendSenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA824B782D6E564B00997D48 /* SendSenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA824B892D6E564C00997D48 /* Build configuration list for PBXNativeTarget "SendSenseUITests" */;
+			buildPhases = (
+				FA824B752D6E564B00997D48 /* Sources */,
+				FA824B762D6E564B00997D48 /* Frameworks */,
+				FA824B772D6E564B00997D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA824B7B2D6E564C00997D48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA824B7C2D6E564C00997D48 /* SendSenseUITests */,
+			);
+			name = SendSenseUITests;
+			packageProductDependencies = (
+			);
+			productName = SendSenseUITests;
+			productReference = FA824B792D6E564B00997D48 /* SendSenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA824B522D6E564900997D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FA824B592D6E564900997D48 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FA824B6E2D6E564B00997D48 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FA824B592D6E564900997D48;
+					};
+					FA824B782D6E564B00997D48 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FA824B592D6E564900997D48;
+					};
+				};
+			};
+			buildConfigurationList = FA824B552D6E564900997D48 /* Build configuration list for PBXProject "SendSense" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA824B512D6E564900997D48;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA824B5B2D6E564900997D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA824B592D6E564900997D48 /* SendSense */,
+				FA824B6E2D6E564B00997D48 /* SendSenseTests */,
+				FA824B782D6E564B00997D48 /* SendSenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA824B582D6E564900997D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA824B6D2D6E564B00997D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA824B772D6E564B00997D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA824B562D6E564900997D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA824B912D6E59FE00997D48 /* ClimbingSession+CoreDataClass.swift in Sources */,
+				FA824B922D6E59FE00997D48 /* ClimbingSession+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA824B6B2D6E564B00997D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA824B752D6E564B00997D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA824B712D6E564B00997D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA824B592D6E564900997D48 /* SendSense */;
+			targetProxy = FA824B702D6E564B00997D48 /* PBXContainerItemProxy */;
+		};
+		FA824B7B2D6E564C00997D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA824B592D6E564900997D48 /* SendSense */;
+			targetProxy = FA824B7A2D6E564C00997D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA824B812D6E564C00997D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA824B822D6E564C00997D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA824B842D6E564C00997D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SendSense/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramanebrahimi.SendSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA824B852D6E564C00997D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SendSense/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramanebrahimi.SendSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA824B872D6E564C00997D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramanebrahimi.SendSenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendSense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SendSense";
+			};
+			name = Debug;
+		};
+		FA824B882D6E564C00997D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramanebrahimi.SendSenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendSense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SendSense";
+			};
+			name = Release;
+		};
+		FA824B8A2D6E564C00997D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramanebrahimi.SendSenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendSense;
+			};
+			name = Debug;
+		};
+		FA824B8B2D6E564C00997D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramanebrahimi.SendSenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendSense;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA824B552D6E564900997D48 /* Build configuration list for PBXProject "SendSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA824B812D6E564C00997D48 /* Debug */,
+				FA824B822D6E564C00997D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA824B832D6E564C00997D48 /* Build configuration list for PBXNativeTarget "SendSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA824B842D6E564C00997D48 /* Debug */,
+				FA824B852D6E564C00997D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA824B862D6E564C00997D48 /* Build configuration list for PBXNativeTarget "SendSenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA824B872D6E564C00997D48 /* Debug */,
+				FA824B882D6E564C00997D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA824B892D6E564C00997D48 /* Build configuration list for PBXNativeTarget "SendSenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA824B8A2D6E564C00997D48 /* Debug */,
+				FA824B8B2D6E564C00997D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA824B522D6E564900997D48 /* Project object */;
+}
